@@ -1,3 +1,5 @@
+## File Structure
+
 /config stores the network information for this peer and its neighbors. It
     also stores a list of the files that it is currently sharing.
 
@@ -6,6 +8,8 @@
 
 /src contains the code for a peer
 A description for each class that makes up a peer follows:
+
+## Class Descriptions
 
 p2p: This is the main class and entrypoint. It completes the set-up and starts 
     the initial server threads. It then handles all user input/commands.
